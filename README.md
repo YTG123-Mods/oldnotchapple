@@ -13,7 +13,7 @@ That's it! Very simple mod.
 ## Building from source
 Clone this repo from `https://github.com/YTG123/oldnotchapple.git`, open your terminal of choice and `cd` into the directory.
 
-```
+````
 cd <the directory>
 ./gradlew build (or just gradlew build for Windows cmd.)
 ```
