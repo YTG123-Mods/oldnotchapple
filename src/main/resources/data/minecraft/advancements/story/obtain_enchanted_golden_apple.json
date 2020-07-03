@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/mine_stone",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "announce_to_chat": true,
+    "hidden": false,
+    "show_toast": true,
+    "frame": "challenge",
+    "description": {
+      "translate": "advancements.story.obtain_enchanted_golden_apple.description"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_enchanted_golden_apple.title"
+    }
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["obtain"]],
+  "rewards": {
+    "experience": 30
+  }
+}

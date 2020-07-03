@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.ytg123.oldnotchapple.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FoodComponentsMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

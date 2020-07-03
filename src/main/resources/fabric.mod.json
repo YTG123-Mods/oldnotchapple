@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "oldnotchapple",
+  "version": "${version}",
+  "name": "Old Notch Apples",
+  "description": "A mod which brings back the overpowered effects of Notch Apples, and also adds back the crafting recipe and the \"overpowered\" achivement (in the form of an advancement)",
+  "authors": [
+    "YTG123"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/oldnotchapple/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ytg123.oldnotchapple.OldNotchApples"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "mixins": [
+    "oldnotchapple.mixins.json"
+  ]
+}
